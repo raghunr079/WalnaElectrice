@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B156FF401D96D17D00CF2726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156FF3F1D96D17D00CF2726 /* AppDelegate.swift */; };
+		B156FF421D96D17D00CF2726 /* WELoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156FF411D96D17D00CF2726 /* WELoginViewController.swift */; };
+		B156FF451D96D17D00CF2726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B156FF431D96D17D00CF2726 /* Main.storyboard */; };
+		B156FF471D96D17D00CF2726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B156FF461D96D17D00CF2726 /* Assets.xcassets */; };
+		B156FF551D96D17D00CF2726 /* WalnaElectricesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156FF541D96D17D00CF2726 /* WalnaElectricesTests.swift */; };
+		B156FF601D96D17D00CF2726 /* WalnaElectricesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156FF5F1D96D17D00CF2726 /* WalnaElectricesUITests.swift */; };
+		B156FF6F1D96D1B600CF2726 /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF6E1D96D1B600CF2726 /* Default-568h.png */; };
+		B156FF721D96D34200CF2726 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF701D96D34200CF2726 /* Default@2x.png */; };
+		B156FF731D96D34200CF2726 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF711D96D34200CF2726 /* Default-568h@2x.png */; };
+		B156FF751D96D3ED00CF2726 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B156FF741D96D3ED00CF2726 /* Images.xcassets */; };
+		B156FF781D96D51900CF2726 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF761D96D51900CF2726 /* Default-667h@2x.png */; };
+		B156FF791D96D51900CF2726 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF771D96D51900CF2726 /* Default-736h@3x.png */; };
+		B156FF7B1D978F3E00CF2726 /* WESegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156FF7A1D978F3E00CF2726 /* WESegmentedControl.swift */; };
+		B156FF7D1D97983F00CF2726 /* WECustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156FF7C1D97983F00CF2726 /* WECustomButton.swift */; };
+		B156FF811D979B9300CF2726 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF7E1D979B9300CF2726 /* calendar.png */; };
+		B156FF821D979B9300CF2726 /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF7F1D979B9300CF2726 /* calendar@2x.png */; };
+		B156FF831D979B9300CF2726 /* calendar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF801D979B9300CF2726 /* calendar@3x.png */; };
+		B156FF8D1D97AAF000CF2726 /* googlePlus.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF8A1D97AAF000CF2726 /* googlePlus.png */; };
+		B156FF8E1D97AAF000CF2726 /* googlePlus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF8B1D97AAF000CF2726 /* googlePlus@2x.png */; };
+		B156FF8F1D97AAF000CF2726 /* googlePlus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF8C1D97AAF000CF2726 /* googlePlus@3x.png */; };
+		B156FF931D97AB6000CF2726 /* faceBook.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF901D97AB6000CF2726 /* faceBook.png */; };
+		B156FF941D97AB6000CF2726 /* faceBook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF911D97AB6000CF2726 /* faceBook@2x.png */; };
+		B156FF951D97AB6000CF2726 /* faceBook@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FF921D97AB6000CF2726 /* faceBook@3x.png */; };
+		B156FF971D97ADB200CF2726 /* WEViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156FF961D97ADB200CF2726 /* WEViewAnimator.swift */; };
+		B156FF9A1D97B62500CF2726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B156FF981D97B62500CF2726 /* LaunchScreen.storyboard */; };
+		B156FF9F1D97F06100CF2726 /* DLRadioButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B156FF9E1D97F06100CF2726 /* DLRadioButton.framework */; };
+		B156FFA31D97F5BE00CF2726 /* DLRadioButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B156FF9E1D97F06100CF2726 /* DLRadioButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B156FFAA1D980B7500CF2726 /* VKCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156FFA91D980B7500CF2726 /* VKCheckbox.swift */; };
+		B156FFAC1D981A5000CF2726 /* WELandingPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156FFAB1D981A5000CF2726 /* WELandingPageVC.swift */; };
+		B156FFAF1D981BAC00CF2726 /* barIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FFAD1D981BAC00CF2726 /* barIcon.png */; };
+		B156FFB01D981BAC00CF2726 /* barIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FFAE1D981BAC00CF2726 /* barIcon@2x.png */; };
+		B156FFB41D981BCF00CF2726 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FFB11D981BCF00CF2726 /* menu.png */; };
+		B156FFB51D981BCF00CF2726 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FFB21D981BCF00CF2726 /* menu@2x.png */; };
+		B156FFB61D981BCF00CF2726 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B156FFB31D981BCF00CF2726 /* menu@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B156FF511D96D17D00CF2726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B156FF341D96D17D00CF2726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B156FF3B1D96D17D00CF2726;
+			remoteInfo = WalnaElectrices;
+		};
+		B156FF5C1D96D17D00CF2726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B156FF341D96D17D00CF2726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B156FF3B1D96D17D00CF2726;
+			remoteInfo = WalnaElectrices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B156FFA41D97F5BE00CF2726 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B156FFA31D97F5BE00CF2726 /* DLRadioButton.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B156FF3C1D96D17D00CF2726 /* WalnaElectrices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalnaElectrices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B156FF3F1D96D17D00CF2726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B156FF411D96D17D00CF2726 /* WELoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WELoginViewController.swift; sourceTree = "<group>"; };
+		B156FF441D96D17D00CF2726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B156FF461D96D17D00CF2726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B156FF4B1D96D17D00CF2726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B156FF501D96D17D00CF2726 /* WalnaElectricesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalnaElectricesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B156FF541D96D17D00CF2726 /* WalnaElectricesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalnaElectricesTests.swift; sourceTree = "<group>"; };
+		B156FF561D96D17D00CF2726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B156FF5B1D96D17D00CF2726 /* WalnaElectricesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalnaElectricesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B156FF5F1D96D17D00CF2726 /* WalnaElectricesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalnaElectricesUITests.swift; sourceTree = "<group>"; };
+		B156FF611D96D17D00CF2726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B156FF6E1D96D1B600CF2726 /* Default-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h.png"; sourceTree = "<group>"; };
+		B156FF701D96D34200CF2726 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B156FF711D96D34200CF2726 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B156FF741D96D3ED00CF2726 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B156FF761D96D51900CF2726 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		B156FF771D96D51900CF2726 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		B156FF7A1D978F3E00CF2726 /* WESegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WESegmentedControl.swift; sourceTree = "<group>"; };
+		B156FF7C1D97983F00CF2726 /* WECustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WECustomButton.swift; sourceTree = "<group>"; };
+		B156FF7E1D979B9300CF2726 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		B156FF7F1D979B9300CF2726 /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
+		B156FF801D979B9300CF2726 /* calendar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@3x.png"; sourceTree = "<group>"; };
+		B156FF8A1D97AAF000CF2726 /* googlePlus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googlePlus.png; sourceTree = "<group>"; };
+		B156FF8B1D97AAF000CF2726 /* googlePlus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googlePlus@2x.png"; sourceTree = "<group>"; };
+		B156FF8C1D97AAF000CF2726 /* googlePlus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googlePlus@3x.png"; sourceTree = "<group>"; };
+		B156FF901D97AB6000CF2726 /* faceBook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceBook.png; sourceTree = "<group>"; };
+		B156FF911D97AB6000CF2726 /* faceBook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faceBook@2x.png"; sourceTree = "<group>"; };
+		B156FF921D97AB6000CF2726 /* faceBook@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faceBook@3x.png"; sourceTree = "<group>"; };
+		B156FF961D97ADB200CF2726 /* WEViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEViewAnimator.swift; sourceTree = "<group>"; };
+		B156FF991D97B62500CF2726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B156FF9E1D97F06100CF2726 /* DLRadioButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DLRadioButton.framework; sourceTree = "<group>"; };
+		B156FFA11D97F48D00CF2726 /* WalnaElectrices-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WalnaElectrices-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		B156FFA91D980B7500CF2726 /* VKCheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKCheckbox.swift; sourceTree = "<group>"; };
+		B156FFAB1D981A5000CF2726 /* WELandingPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WELandingPageVC.swift; sourceTree = "<group>"; };
+		B156FFAD1D981BAC00CF2726 /* barIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barIcon.png; sourceTree = "<group>"; };
+		B156FFAE1D981BAC00CF2726 /* barIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barIcon@2x.png"; sourceTree = "<group>"; };
+		B156FFB11D981BCF00CF2726 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		B156FFB21D981BCF00CF2726 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		B156FFB31D981BCF00CF2726 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B156FF391D96D17D00CF2726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B156FF9F1D97F06100CF2726 /* DLRadioButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B156FF4D1D96D17D00CF2726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B156FF581D96D17D00CF2726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B156FF331D96D17D00CF2726 = {
+			isa = PBXGroup;
+			children = (
+				B156FF3E1D96D17D00CF2726 /* WalnaElectrices */,
+				B156FF531D96D17D00CF2726 /* WalnaElectricesTests */,
+				B156FF5E1D96D17D00CF2726 /* WalnaElectricesUITests */,
+				B156FF3D1D96D17D00CF2726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B156FF3D1D96D17D00CF2726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B156FF3C1D96D17D00CF2726 /* WalnaElectrices.app */,
+				B156FF501D96D17D00CF2726 /* WalnaElectricesTests.xctest */,
+				B156FF5B1D96D17D00CF2726 /* WalnaElectricesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B156FF3E1D96D17D00CF2726 /* WalnaElectrices */ = {
+			isa = PBXGroup;
+			children = (
+				B156FF3F1D96D17D00CF2726 /* AppDelegate.swift */,
+				B156FF411D96D17D00CF2726 /* WELoginViewController.swift */,
+				B156FFAB1D981A5000CF2726 /* WELandingPageVC.swift */,
+				B156FFA91D980B7500CF2726 /* VKCheckbox.swift */,
+				B156FF961D97ADB200CF2726 /* WEViewAnimator.swift */,
+				B156FF7A1D978F3E00CF2726 /* WESegmentedControl.swift */,
+				B156FF7C1D97983F00CF2726 /* WECustomButton.swift */,
+				B156FF431D96D17D00CF2726 /* Main.storyboard */,
+				B156FF981D97B62500CF2726 /* LaunchScreen.storyboard */,
+				B156FF461D96D17D00CF2726 /* Assets.xcassets */,
+				B156FF4B1D96D17D00CF2726 /* Info.plist */,
+				B156FF9B1D97EFF100CF2726 /* FrameWork */,
+				B156FF6D1D96D1A300CF2726 /* Resources */,
+				B156FF741D96D3ED00CF2726 /* Images.xcassets */,
+			);
+			path = WalnaElectrices;
+			sourceTree = "<group>";
+		};
+		B156FF531D96D17D00CF2726 /* WalnaElectricesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B156FF541D96D17D00CF2726 /* WalnaElectricesTests.swift */,
+				B156FF561D96D17D00CF2726 /* Info.plist */,
+			);
+			path = WalnaElectricesTests;
+			sourceTree = "<group>";
+		};
+		B156FF5E1D96D17D00CF2726 /* WalnaElectricesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B156FF5F1D96D17D00CF2726 /* WalnaElectricesUITests.swift */,
+				B156FF611D96D17D00CF2726 /* Info.plist */,
+			);
+			path = WalnaElectricesUITests;
+			sourceTree = "<group>";
+		};
+		B156FF6D1D96D1A300CF2726 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B156FFA11D97F48D00CF2726 /* WalnaElectrices-Bridging-Header.h */,
+				B156FF901D97AB6000CF2726 /* faceBook.png */,
+				B156FF911D97AB6000CF2726 /* faceBook@2x.png */,
+				B156FF921D97AB6000CF2726 /* faceBook@3x.png */,
+				B156FFB11D981BCF00CF2726 /* menu.png */,
+				B156FFB21D981BCF00CF2726 /* menu@2x.png */,
+				B156FFB31D981BCF00CF2726 /* menu@3x.png */,
+				B156FFAD1D981BAC00CF2726 /* barIcon.png */,
+				B156FFAE1D981BAC00CF2726 /* barIcon@2x.png */,
+				B156FF8A1D97AAF000CF2726 /* googlePlus.png */,
+				B156FF8B1D97AAF000CF2726 /* googlePlus@2x.png */,
+				B156FF8C1D97AAF000CF2726 /* googlePlus@3x.png */,
+				B156FF7E1D979B9300CF2726 /* calendar.png */,
+				B156FF7F1D979B9300CF2726 /* calendar@2x.png */,
+				B156FF801D979B9300CF2726 /* calendar@3x.png */,
+				B156FF761D96D51900CF2726 /* Default-667h@2x.png */,
+				B156FF771D96D51900CF2726 /* Default-736h@3x.png */,
+				B156FF6E1D96D1B600CF2726 /* Default-568h.png */,
+				B156FF701D96D34200CF2726 /* Default@2x.png */,
+				B156FF711D96D34200CF2726 /* Default-568h@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B156FF9B1D97EFF100CF2726 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				B156FF9E1D97F06100CF2726 /* DLRadioButton.framework */,
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B156FF3B1D96D17D00CF2726 /* WalnaElectrices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B156FF641D96D17D00CF2726 /* Build configuration list for PBXNativeTarget "WalnaElectrices" */;
+			buildPhases = (
+				B156FF381D96D17D00CF2726 /* Sources */,
+				B156FF391D96D17D00CF2726 /* Frameworks */,
+				B156FF3A1D96D17D00CF2726 /* Resources */,
+				B156FFA41D97F5BE00CF2726 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalnaElectrices;
+			productName = WalnaElectrices;
+			productReference = B156FF3C1D96D17D00CF2726 /* WalnaElectrices.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B156FF4F1D96D17D00CF2726 /* WalnaElectricesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B156FF671D96D17D00CF2726 /* Build configuration list for PBXNativeTarget "WalnaElectricesTests" */;
+			buildPhases = (
+				B156FF4C1D96D17D00CF2726 /* Sources */,
+				B156FF4D1D96D17D00CF2726 /* Frameworks */,
+				B156FF4E1D96D17D00CF2726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B156FF521D96D17D00CF2726 /* PBXTargetDependency */,
+			);
+			name = WalnaElectricesTests;
+			productName = WalnaElectricesTests;
+			productReference = B156FF501D96D17D00CF2726 /* WalnaElectricesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B156FF5A1D96D17D00CF2726 /* WalnaElectricesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B156FF6A1D96D17D00CF2726 /* Build configuration list for PBXNativeTarget "WalnaElectricesUITests" */;
+			buildPhases = (
+				B156FF571D96D17D00CF2726 /* Sources */,
+				B156FF581D96D17D00CF2726 /* Frameworks */,
+				B156FF591D96D17D00CF2726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B156FF5D1D96D17D00CF2726 /* PBXTargetDependency */,
+			);
+			name = WalnaElectricesUITests;
+			productName = WalnaElectricesUITests;
+			productReference = B156FF5B1D96D17D00CF2726 /* WalnaElectricesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B156FF341D96D17D00CF2726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nidhi Raghu";
+				TargetAttributes = {
+					B156FF3B1D96D17D00CF2726 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B156FF4F1D96D17D00CF2726 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B156FF3B1D96D17D00CF2726;
+					};
+					B156FF5A1D96D17D00CF2726 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B156FF3B1D96D17D00CF2726;
+					};
+				};
+			};
+			buildConfigurationList = B156FF371D96D17D00CF2726 /* Build configuration list for PBXProject "WalnaElectrices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B156FF331D96D17D00CF2726;
+			productRefGroup = B156FF3D1D96D17D00CF2726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B156FF3B1D96D17D00CF2726 /* WalnaElectrices */,
+				B156FF4F1D96D17D00CF2726 /* WalnaElectricesTests */,
+				B156FF5A1D96D17D00CF2726 /* WalnaElectricesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B156FF3A1D96D17D00CF2726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B156FFB61D981BCF00CF2726 /* menu@3x.png in Resources */,
+				B156FF931D97AB6000CF2726 /* faceBook.png in Resources */,
+				B156FF731D96D34200CF2726 /* Default-568h@2x.png in Resources */,
+				B156FF6F1D96D1B600CF2726 /* Default-568h.png in Resources */,
+				B156FFAF1D981BAC00CF2726 /* barIcon.png in Resources */,
+				B156FF751D96D3ED00CF2726 /* Images.xcassets in Resources */,
+				B156FFB01D981BAC00CF2726 /* barIcon@2x.png in Resources */,
+				B156FF831D979B9300CF2726 /* calendar@3x.png in Resources */,
+				B156FF791D96D51900CF2726 /* Default-736h@3x.png in Resources */,
+				B156FF941D97AB6000CF2726 /* faceBook@2x.png in Resources */,
+				B156FF821D979B9300CF2726 /* calendar@2x.png in Resources */,
+				B156FF811D979B9300CF2726 /* calendar.png in Resources */,
+				B156FFB51D981BCF00CF2726 /* menu@2x.png in Resources */,
+				B156FFB41D981BCF00CF2726 /* menu.png in Resources */,
+				B156FF9A1D97B62500CF2726 /* LaunchScreen.storyboard in Resources */,
+				B156FF471D96D17D00CF2726 /* Assets.xcassets in Resources */,
+				B156FF451D96D17D00CF2726 /* Main.storyboard in Resources */,
+				B156FF721D96D34200CF2726 /* Default@2x.png in Resources */,
+				B156FF8F1D97AAF000CF2726 /* googlePlus@3x.png in Resources */,
+				B156FF951D97AB6000CF2726 /* faceBook@3x.png in Resources */,
+				B156FF8E1D97AAF000CF2726 /* googlePlus@2x.png in Resources */,
+				B156FF8D1D97AAF000CF2726 /* googlePlus.png in Resources */,
+				B156FF781D96D51900CF2726 /* Default-667h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B156FF4E1D96D17D00CF2726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B156FF591D96D17D00CF2726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B156FF381D96D17D00CF2726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B156FF421D96D17D00CF2726 /* WELoginViewController.swift in Sources */,
+				B156FF7B1D978F3E00CF2726 /* WESegmentedControl.swift in Sources */,
+				B156FFAC1D981A5000CF2726 /* WELandingPageVC.swift in Sources */,
+				B156FFAA1D980B7500CF2726 /* VKCheckbox.swift in Sources */,
+				B156FF401D96D17D00CF2726 /* AppDelegate.swift in Sources */,
+				B156FF7D1D97983F00CF2726 /* WECustomButton.swift in Sources */,
+				B156FF971D97ADB200CF2726 /* WEViewAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B156FF4C1D96D17D00CF2726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B156FF551D96D17D00CF2726 /* WalnaElectricesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B156FF571D96D17D00CF2726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B156FF601D96D17D00CF2726 /* WalnaElectricesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B156FF521D96D17D00CF2726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B156FF3B1D96D17D00CF2726 /* WalnaElectrices */;
+			targetProxy = B156FF511D96D17D00CF2726 /* PBXContainerItemProxy */;
+		};
+		B156FF5D1D96D17D00CF2726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B156FF3B1D96D17D00CF2726 /* WalnaElectrices */;
+			targetProxy = B156FF5C1D96D17D00CF2726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B156FF431D96D17D00CF2726 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B156FF441D96D17D00CF2726 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B156FF981D97B62500CF2726 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B156FF991D97B62500CF2726 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B156FF621D96D17D00CF2726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B156FF631D96D17D00CF2726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B156FF651D96D17D00CF2726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WalnaElectrices",
+				);
+				INFOPLIST_FILE = WalnaElectrices/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WalnaElectrices.WalnaElectrices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WalnaElectrices-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		B156FF661D96D17D00CF2726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WalnaElectrices",
+				);
+				INFOPLIST_FILE = WalnaElectrices/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WalnaElectrices.WalnaElectrices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WalnaElectrices-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B156FF681D96D17D00CF2726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WalnaElectricesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WalnaElectrices.WalnaElectricesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalnaElectrices.app/WalnaElectrices";
+			};
+			name = Debug;
+		};
+		B156FF691D96D17D00CF2726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WalnaElectricesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WalnaElectrices.WalnaElectricesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalnaElectrices.app/WalnaElectrices";
+			};
+			name = Release;
+		};
+		B156FF6B1D96D17D00CF2726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WalnaElectricesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WalnaElectrices.WalnaElectricesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WalnaElectrices;
+			};
+			name = Debug;
+		};
+		B156FF6C1D96D17D00CF2726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WalnaElectricesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WalnaElectrices.WalnaElectricesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WalnaElectrices;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B156FF371D96D17D00CF2726 /* Build configuration list for PBXProject "WalnaElectrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B156FF621D96D17D00CF2726 /* Debug */,
+				B156FF631D96D17D00CF2726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B156FF641D96D17D00CF2726 /* Build configuration list for PBXNativeTarget "WalnaElectrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B156FF651D96D17D00CF2726 /* Debug */,
+				B156FF661D96D17D00CF2726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B156FF671D96D17D00CF2726 /* Build configuration list for PBXNativeTarget "WalnaElectricesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B156FF681D96D17D00CF2726 /* Debug */,
+				B156FF691D96D17D00CF2726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B156FF6A1D96D17D00CF2726 /* Build configuration list for PBXNativeTarget "WalnaElectricesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B156FF6B1D96D17D00CF2726 /* Debug */,
+				B156FF6C1D96D17D00CF2726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B156FF341D96D17D00CF2726 /* Project object */;
+}
